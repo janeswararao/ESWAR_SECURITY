@@ -1,0 +1,29 @@
+.center-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;   /* IMPORTANT */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+}
+
+/* TEXT STYLES */
+.title {
+  color: orange;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #ffaa33;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* IMAGE */
+.center-image {
+  width: 320px;
+  max-width: 80%;
+  filter: drop-shadow(0 0 25px orange);
+}
