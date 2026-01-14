@@ -34,7 +34,7 @@ function Login() {
 
         <p className="login-footer">
           Don’t have an account?{" "}
-          <span>Sign up</span>
+          <span onClick={() => navigate("/signup")}>Sign up</span>
         </p>
       </div>
     </div>
