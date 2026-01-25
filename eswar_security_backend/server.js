@@ -12,7 +12,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.use("/api/dashboard", require("./routes/dashboard"));
 app.use("/api/auth", require("./routes/auth"));
+
 
 const PORT = 5000;
 app.listen(PORT, () => {
