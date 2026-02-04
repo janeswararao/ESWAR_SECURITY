@@ -1,0 +1,27 @@
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #0b0f1a;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar .logo {
+    color: #ff6a00;
+    margin-bottom: 30px;
+}
+
+.sidebar button {
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background: #ff6a00;
+}
