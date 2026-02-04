@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 
+// Import components
 import PublicHeader from "./components/PublicHeader";
 import AuthHeader from "./components/AuthHeader";
 
